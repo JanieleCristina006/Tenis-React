@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /*estilo header */
+  header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h3{
+    color: #181818;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal; 
+  } 
+
+/*fim do estilo header */
+
+
+/*começo estilo main*/
+
+main{
+    height: 50vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 30% 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    filter: brightness(59%);
+   
+}
+
+
+/* fim estilo main */
+
+section{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+section h3{
+color: #181818;
+font-family: 'Montserrat',sans-serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+margin-top: 40px;
+}
+
+section p{
+color: #474747;
+text-align: center;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 15px;
+}
+
+section .descricao-produto{
+    width: 360px;
+    height: 340px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+section .descricao-produto .img-DP{
+    width: 100%;
+    height: auto;
+    max-width: 350px; 
+}
+
+
+section .container{
+    width: 90%;
+    height: 100vh;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section .container .container-img{
+    width: 280px;
+    height: 250px;
+    background: #EBE9EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section .container .container-img img {
+    width: 100%;
+    height: auto;
+    max-width: 190px; /* Você pode ajustar este valor conforme necessário */
+}
+
+section .container .container-img button{
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.7s, transform 0.2s;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+}
+
